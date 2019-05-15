@@ -261,15 +261,6 @@ def recognition(filename):
         print(e)
 
 
-# def main():
-#     if len(sys.argv) < 2:
-#         print("Please Input FileName")
-#     else:
-#         pretreatment(sys.argv[1])
-#     recognition('file.tmp')
-#     for i in signlist.keys():
-#         print("(", signlist[i], ",", i, ")")
-
 def main():
     file_name = "C:\\Data\\Projects\\PycharmProjects\\Network\\test\\test.txt"
     pretreatment(file_name)
