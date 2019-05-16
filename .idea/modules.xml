@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Compl_lab.iml" filepath="$PROJECT_DIR$/.idea/Compl_lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lexer-parser.iml" filepath="$PROJECT_DIR$/.idea/lexer-parser.iml" />
     </modules>
   </component>
 </project>
