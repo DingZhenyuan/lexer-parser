@@ -1,10 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
+	//lexer
 	fileName := "test.txt"
 	Pretreatment(fileName)
 	recognition("test.temp")
@@ -12,3 +11,5 @@ func main() {
 		fmt.Println("(", k, ",", v, ")")
 	}
 }
+
+

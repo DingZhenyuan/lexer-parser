@@ -1,0 +1,30 @@
+
+@startuml
+ 
+start
+:开始;
+:从磁盘读取文件;
+:对无关字符进行处理;
+:产生临时文件;
+:从磁盘读入临时文件;
+:判断内容;
+if (是否是保留字？) then (yes)
+    :保留字;
+else (no)
+    if (是否是常量？) then (yes)
+        :常量;
+    else (no)
+        if (是否是运算符？) then (yes)
+            :运算符;
+        else (no)
+            if (是否是合法标识符？) then (yes)
+                :变量;
+            else (no)
+                :出错处理;
+            endif
+        endif
+    endif
+endif
+:生成符号表;
+:输出;
+@enduml
