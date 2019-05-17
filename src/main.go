@@ -20,7 +20,7 @@ func main() {
 	//for k, v := range signlist {
 	// fmt.Println("(", k, ",", v, ")")
 	//}
-	
+
 	//parser
 	for {
 		var actHow rune
